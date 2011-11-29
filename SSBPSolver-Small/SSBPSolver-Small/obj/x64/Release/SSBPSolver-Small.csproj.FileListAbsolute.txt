@@ -1,0 +1,6 @@
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\x64\Release\SSBPSolver-Small.exe
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\x64\Release\SSBPSolver-Small.pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x64\Release\ResolveAssemblyReference.cache
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x64\Release\SSBPSolver-Small.exe
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x64\Release\SSBPSolver-Small.pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\x64\Release\SSBPSolver-Small.exe.config

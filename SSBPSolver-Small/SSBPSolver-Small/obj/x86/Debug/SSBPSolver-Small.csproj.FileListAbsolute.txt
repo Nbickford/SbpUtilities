@@ -1,0 +1,5 @@
+C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\Debug\SSBPSolver-Small.exe
+C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\Debug\SSBPSolver-Small.pdb
+C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.exe
+C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.pdb
