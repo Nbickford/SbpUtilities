@@ -1,0 +1,64 @@
+SbpUtilities- a collection of utilities for the solving, generating, and searching of Sliding Block Puzzles.
+
+String[] taglines=new String[5]{
+"Not just 15 puzzles!",
+"Also for the slow testing of memory!",
+"As specific as Skeinforge!",
+"Hashing-How does it work?",
+"A few million puzzles will test anything!"};
+Random random;
+Console.WriteLine(taglines[random.Next(5)]);
+
+
+CHAPTER 1- ON THE HISTORY OF THE PROBLEM
+(Oi, this isn't a blog post!)
+
+These utilities were originally created to solve two problems: Firstly, the question of what the hardest possible 4x4 Simple^3 Sliding Block Puzzle was using the Moves metric, and secondly, the question of how to do it in less than 48 days. Originally, the only program in the box was SBP, but since the days of experimentation with genetic algorithms to create the puzzles a few more have joined the list. 
+If any terminology is foreign, the blog post at http://nbickford.wordpress.com/2011/09/20/what-ive-been-working-on-lately/
+
+Explanation of the various utilities:
+
+SBP is a program to genetically evolve difficult sliding block puzzles using Jimslide. Fairly fast, will usually give results within a day, but will probably make various antiviruses and Windows wary due to the constant swapping of files to and from Jimslide. 
+Also includes:
+Code for client to translate uncompressed SBP (in array format) into Jimslide format, only failing every million or so puzzles;
+Code  to go through SBPs in file, run them through Jimslide, parse Jimslide's return, and get the best puzzle (secret feature).
+
+SBPFinder(small) is a version of the original SBPFinder which:
+  Finds all unique SBPs on a rectangular grid using a fast version of depth-first search whoch beats brute-forcing it by a factor more than 2;
+  Only returns puzzles which are justsolved, saving memory and disk.
+
+SBPSearcher is a specialized version of the secret code in SBP which:
+  Uses a custom solver to do diameter searches using a really neat algorithm;
+  Uses a hash table to solve thousands of puzzles at a time (also using the neat algorithm)
+  Is many, many times faster than the secret code in SBP (almost 100);
+  Has duplicate checking!
+  Actually works as advertised!
+  Contains a functionized version of SSBP-Solver for use in your own applications!
+
+SSBPSolver(small) is a sliding block puzzle solver which:
+  Gobbles memory;
+  Is 2 times as slow as Jimslide;
+  Supports diameter searches and input in the array format;
+  Isn't up to date (see SBPSearcher for the real version)
+
+2-USAGE
+
+Usually, if you just want a whole bunch of neat puzzles to solve, you can use the friendly interface in SBP.
+If you want to go through all possible NxM puzzles and find the hardest of them in the moves metric, the way to do so used to be:
+SBPFINDER->SBP
+
+but is now the much faster
+SBPFinder(Small)->SBPSearcher&SSBPSolver
+
+3-TODO (To Obfuscate, Do Object-Oriented-Programming)
+
+-Make SSBPSolver faster (perhaps code in C++?)
+-Multithread SBPSearcher&SBP
+-Fix the stupid Windows '8GB is all you're allowed in x64!' restriction
+-Stop procrastinating (not urgent, perhaps tomorrow)
+
+
+
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+That is all.
