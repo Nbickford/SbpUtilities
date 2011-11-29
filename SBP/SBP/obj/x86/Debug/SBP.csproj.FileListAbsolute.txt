@@ -1,0 +1,6 @@
+c:\users\neil\documents\visual studio 2010\Projects\SBP\SBP\bin\Debug\SBP.exe
+c:\users\neil\documents\visual studio 2010\Projects\SBP\SBP\bin\Debug\SBP.pdb
+c:\users\neil\documents\visual studio 2010\Projects\SBP\SBP\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\neil\documents\visual studio 2010\Projects\SBP\SBP\obj\x86\Debug\SBP.exe
+c:\users\neil\documents\visual studio 2010\Projects\SBP\SBP\obj\x86\Debug\SBP.pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBP\SBP\bin\Debug\SBP.exe.config
