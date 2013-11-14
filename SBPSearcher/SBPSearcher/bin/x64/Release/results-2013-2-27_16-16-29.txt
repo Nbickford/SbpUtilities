@@ -1,0 +1,32 @@
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0
+1
+0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0
+1
+0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0
+1
+0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0
+1
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0
+0
+
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0
+0
+
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-0-1-1-0-0-0-0-0-0-0-0-0
+0
+
+
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\output-4x4\0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0
+0
+
+

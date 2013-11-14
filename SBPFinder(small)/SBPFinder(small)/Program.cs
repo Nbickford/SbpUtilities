@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,31 @@ using System.IO;
 
 namespace SBPFinder_small_
 {
+    public class Puzzles
+    {
+        public static Byte[] curparse; //Memory is good, you know.
+        public static Byte x = 4;
+        public static Byte y = 4;
+        public static Byte xy;
+        public static Byte[,] E; //The encoding matrix
+        public static Byte[,] D;//The decoding matrix
+        public static HashSet<byte[]> boards = new HashSet<byte[]>(new IntArrayComparer()); //Used to store the found boards.
+        public static Byte curhigh = 1;
+        public static TextWriter tw;
+        //public static List<Byte> U=new List<Byte>(){0,1,2,3};//The universal set.
+        public static Int64 triedPuzzles = 0;
+        public static Int64 numPuzzles = 0;
+        public static Int64 collidePuzzles = 0;
+        public static Int64 noHolePuzzles = 0;
+        public static Double estTotal;
+        public static Char[] asciiCharacters = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+        public static TextWriter[] tws;
+    }
+
     class Program
     {
+        static double magica = 0.9845728285127987d;
+        static double magicb = 1.64515074412564d;
         static void Main(string[] args)
         {
             Console.WriteLine("SBPFINDER - A program for finding all the valid SBPs of a {0}x{1} grid.", Puzzles.x, Puzzles.y);
@@ -24,8 +48,8 @@ namespace SBPFinder_small_
                 Puzzles.tws[i] = new StreamWriter(Puzzles.x + "x" + Puzzles.y + "_p=" + i + ".txt");
             }
 
-            Puzzles.estTotal = 2 * Math.Pow(3, Puzzles.x + Puzzles.y - 2) * Math.Pow(4, (Puzzles.x - 1) * (Puzzles.y - 1));
-            Console.WriteLine("Estimated number of puzzles to check through: " + Puzzles.estTotal);
+            Puzzles.estTotal = Math.Pow(2,magica*(Puzzles.x+Puzzles.y)+magicb*Puzzles.x*Puzzles.y);
+            Console.WriteLine("Estimated number of puzzles to check for justsolvedness: " + Puzzles.estTotal);
             Console.WriteLine("Time: {0}", DateTime.Now);
 
             //Make the encoding and decoding mechanisms
@@ -553,25 +577,5 @@ namespace SBPFinder_small_
 
 
 
-    public class Puzzles
-    {
-        public static Byte[] curparse; //Memory is good, you know.
-        public static Byte x = 4;
-        public static Byte y = 5;
-        public static Byte xy;
-        public static Byte[,] E; //The encoding matrix
-        public static Byte[,] D;//The decoding matrix
-        public static HashSet<byte[]> boards = new HashSet<byte[]>(new IntArrayComparer()); //Used to store the found boards.
-        public static Byte curhigh = 1;
-        public static TextWriter tw;
-        //public static List<Byte> U=new List<Byte>(){0,1,2,3};//The universal set.
-        public static Int64 triedPuzzles = 0;
-        public static Int64 numPuzzles = 0;
-        public static Int64 collidePuzzles = 0;
-        public static Int64 noHolePuzzles = 0;
-        public static Double estTotal;
-        //public static Byte[] n = new Byte[0];
-        public static Char[] asciiCharacters = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-        public static TextWriter[] tws;
-    }
+
 }

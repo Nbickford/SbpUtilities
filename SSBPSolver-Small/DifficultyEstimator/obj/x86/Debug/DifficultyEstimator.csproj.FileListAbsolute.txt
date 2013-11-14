@@ -1,0 +1,5 @@
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\DifficultyEstimator\bin\Debug\DifficultyEstimator.exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\DifficultyEstimator\bin\Debug\DifficultyEstimator.pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\DifficultyEstimator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\DifficultyEstimator\obj\x86\Debug\DifficultyEstimator.exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\DifficultyEstimator\obj\x86\Debug\DifficultyEstimator.pdb

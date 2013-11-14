@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSBPSolver-Small", "SSBPSolver-Small\SSBPSolver-Small.csproj", "{32BCE447-6DBE-41EB-B6EA-9CFAF6A05D31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifficultyEstimator", "DifficultyEstimator\DifficultyEstimator.csproj", "{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,6 +21,12 @@ Global
 		{32BCE447-6DBE-41EB-B6EA-9CFAF6A05D31}.Release|x64.Build.0 = Release|x64
 		{32BCE447-6DBE-41EB-B6EA-9CFAF6A05D31}.Release|x86.ActiveCfg = Release|x86
 		{32BCE447-6DBE-41EB-B6EA-9CFAF6A05D31}.Release|x86.Build.0 = Release|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Debug|x64.ActiveCfg = Debug|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Debug|x86.ActiveCfg = Debug|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Debug|x86.Build.0 = Debug|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Release|x64.ActiveCfg = Release|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Release|x86.ActiveCfg = Release|x86
+		{15E5DE0B-8557-4A84-8B7A-56E9ED77CB2F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+c:\users\neil\documents\visual studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\SBPSorter.exe
+c:\users\neil\documents\visual studio 2010\Projects\SBPSorter\SBPSorter\bin\Debug\SBPSorter.pdb
+c:\users\neil\documents\visual studio 2010\Projects\SBPSorter\SBPSorter\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\neil\documents\visual studio 2010\Projects\SBPSorter\SBPSorter\obj\x86\Debug\SBPSorter.exe
+c:\users\neil\documents\visual studio 2010\Projects\SBPSorter\SBPSorter\obj\x86\Debug\SBPSorter.pdb

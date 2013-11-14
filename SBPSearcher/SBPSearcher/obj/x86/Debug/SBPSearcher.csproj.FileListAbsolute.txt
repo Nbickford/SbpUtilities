@@ -5,3 +5,6 @@ C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\obj\
 C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\obj\x86\Debug\SBPSearcher.pdb
 C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\obj\x86\Debug\SBPSearcher.exe
 C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\obj\x86\Debug\SBPSearcher.pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\bin\Debug\SBPSearcher.exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\bin\Debug\SBPSearcher.pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPSearcher\SBPSearcher\obj\x86\Debug\ResolveAssemblyReference.cache

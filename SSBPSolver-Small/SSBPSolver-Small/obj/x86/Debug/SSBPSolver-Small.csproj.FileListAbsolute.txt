@@ -3,3 +3,9 @@ C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-
 C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.exe
 C:\Users\neil\documents\visual studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\Debug\SSBPSolver-Small.exe.config
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\Debug\SSBPSolver-Small.exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\bin\Debug\SSBPSolver-Small.pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SSBPSolver-Small\SSBPSolver-Small\obj\x86\Debug\SSBPSolver-Small.pdb

@@ -1,0 +1,10 @@
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\bin\x64\Release\SBPFinder(small).exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\bin\x64\Release\SBPFinder(small).pdb
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\ResolveAssemblyReference.cache
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\SBPFinder(small).exe
+C:\Users\neil.000\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\SBPFinder(small).pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\SBPFinder(small).exe
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\SBPFinder(small).pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\bin\x64\Release\SBPFinder(small).exe
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\bin\x64\Release\SBPFinder(small).pdb
+C:\Users\neil\Documents\Visual Studio 2010\Projects\SBPFinder(small)\SBPFinder(small)\obj\x64\Release\ResolveAssemblyReference.cache
